@@ -1,0 +1,106 @@
+[Root]
+Most Recent Package=EACPsys 2.0
+
+
+[Package|EACPsys 2.0|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Archivos de programa\EACPsys
+
+[Package|EACPsys 2.0|Configure DAO ISAMs]
+Applicable=No
+
+[Package|EACPsys 2.0|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|EACPsys 2.0|Files Found]
+
+[Package|EACPsys 2.0|Files Released]
+
+[Package|EACPsys 2.0|Missing Dependency Information]
+C:\Archivos de programa\Archivos comunes\Microsoft Shared\DAO\DAO360.DLL=
+
+[Package|EACPsys 2.0|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=
+
+[Package|EACPsys 2.0|Files Added]
+
+[Package|EACPsys 2.0|Files Removed]
+
+[Package|EACPsys 2.0|Files In Project]
+J:\EACPsys.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\VB6ES.DLL=Yes
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDFTES.DLL=Yes
+C:\Archivos de programa\Archivos comunes\Microsoft Shared\DAO\DAO360.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCMCES.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCC2ES.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|EACPsys 2.0|Configure Registry Files]
+Applicable=No
+
+[Package|EACPsys 2.0|Configure Remote Servers]
+Applicable=No
+
+[Package|EACPsys 2.0|Install Locations]
+J:\EACPsys.exe=$(ProgramFiles)\EACPsys
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB6ES.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\STDFTES.DLL=$(WinSysPath)
+C:\Archivos de programa\Archivos comunes\Microsoft Shared\DAO\DAO360.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCMCES.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCC2ES.DLL=$(WinSysPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|EACPsys 2.0|Configure Shared Files]
+Applicable=Yes
+J:\EACPsys.exe=No
+
+[Package|EACPsys 2.0|Distribution]
+Type=single
+Size=
+Title=EACPsys
+
+[Package|EACPsys 2.0|IconGroups]
+Group0=EACPsys
+PrivateGroup0=Verdadero
+Parent0=$(Programs)
+
+[Package|EACPsys 2.0|EACPsys]
+Icon1=EACPsys.exe
+Title1=EACPsys
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|EACPsys 2.0|Package]
+PackageFolder=C:\Archivos de programa\EACPsys
+ProjectFolder=J:\EACPsys (Codigo Fuente)
+ServerSideCab=
+File1=C:\Archivos de programa\EACPsys\setup.exe
+File2=C:\Archivos de programa\EACPsys\Setup.Lst
+File3=C:\Archivos de programa\EACPsys\EACPsys.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
